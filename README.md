@@ -1,5 +1,5 @@
 # Icon Controller
-Some programs will automatically place a desktop shortcut or icon when they update. This script is designed to delete those annoying icons that keep reappearing.
+Some programs will automatically place a desktop shortcut or icon when they update. This script is designed to delete those annoying icons that keep reappearing or to 
 
 Compatible with Windows 8 or above.
 
@@ -29,9 +29,17 @@ Run the command 'python --version' in cmd to make sure you have it installed and
 1) Select the actions tab. Click on new.
 2) From the action dropdown, select "start a program".
 3) Click browse and navigate to wherever you extracted the repo.
-4) Select the "run.bat" file. This is the executable that runs the python script.
+4) Select the run.bat file. This is the executable that runs the python script.
 
 #### Finishing up
 1) Select the conditions tab. Look at the section that says "Power". If you are using a laptop, you may wish to uncheck the box that says "Stop if the computer switches to battery power".
 2) If you wish to look through the other tabs, do so, but only make changes if you know what you're doing.
 3) Click ok to add the new task to task scheduler. Icon Controller will now run whenever you login or unlock your computer.
+
+### Configuration
+Open the config.py file to configure the script before it runs. Follow the guides written in the file to adjust each setting to your liking.
+
+## Running
+Once you are done setting up you can run a manual test by opening the run.bat file. The command will log each icon deleted and how many in total.
+
+If you wish to pause the automatic close countdown, click anywhere inside the command window. Click esc once ready to resume the countdown, or you can close the window yourself.
