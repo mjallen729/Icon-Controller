@@ -1,5 +1,3 @@
-# Some programs will automatically place a desktop shortcut when they update
-# This will delete those annoying icons that keep reappearing
 # Compatible with Windows 8 or above
 
 # Any name listed here will be deleted
