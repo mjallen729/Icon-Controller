@@ -10,7 +10,10 @@ Run the command 'python --version' in cmd to make sure you have it installed and
 
 ## Installation
 ### Getting the script
-1) Download the repo as a zip filed. Extract the folder inside the archive to your desktop or wherever you wish to store it.
+Download the repo as a zip filed. Extract the folder inside the archive to your desktop or wherever you wish to store it.
+
+### Configuration
+Open the config.py file to configure the script before it runs. Follow the guides written in the file to adjust each setting to your liking.
 
 ### Scheduling automatic execution
 #### Creating a new task
@@ -35,9 +38,6 @@ Run the command 'python --version' in cmd to make sure you have it installed and
 1) Select the conditions tab. Look at the section that says "Power". If you are using a laptop, you may wish to uncheck the box that says "Stop if the computer switches to battery power".
 2) If you wish to look through the other tabs, do so, but only make changes if you know what you're doing.
 3) Click ok to add the new task to task scheduler. Icon Controller will now run whenever you login or unlock your computer.
-
-### Configuration
-Open the config.py file to configure the script before it runs. Follow the guides written in the file to adjust each setting to your liking.
 
 ## Running
 Once you are done setting up you can run a manual test by opening the run.bat file. The command will log each icon deleted and how many in total.
