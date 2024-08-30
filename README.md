@@ -1,5 +1,5 @@
 # Icon Controller
-Some programs will automatically place a desktop shortcut or icon when they update. This script is designed to delete those annoying icons that keep reappearing or to 
+Some programs will automatically place a desktop shortcut or icon when they update. This script is designed to delete those annoying icons that keep reappearing or to help clean up your desktop.
 
 Compatible with Windows 8 or above.
 
