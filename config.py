@@ -2,23 +2,21 @@
 # This will delete those annoying icons that keep reappearing
 # Compatible with Windows 8 or above
 
+# Any name listed here will be deleted
 # Type the exact name of the icon (do not include file extensions)
 name_blacklist = {
-    'Roblox Player',
-    'Roblox Studio',
-    'iCUE',
-    'Bruno'
+    'Annoying Icon 123',
 
 }
+
+# Only delete the icon if it's a shortcut
+shortcut_mandatory = True
 
 # Do not remove files with these extensions (do not include the .)
 extension_blacklist = {
     'pdf',
 
 }
-
-# Only delete the icon if it's a shortcut
-shortcut_mandatory = True
 
 
 def load():
