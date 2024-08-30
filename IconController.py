@@ -32,7 +32,7 @@ for file in files:
     
     file_name, ext = os.path.splitext(file)
     if (file_name in settings['name_blacklist']) or (ext[1:] in settings['extension_blacklist']):
-        print(f'{file_name}')
+        print(f'{file_name}{ext if ext != '.lnk' else ''}')
         os.remove(get_correct_path(file))
         icons_removed += 1
 
