@@ -31,7 +31,7 @@ for file in files:
         continue
     
     file_name, ext = os.path.splitext(file)
-    if (file_name in settings['name_blacklist']) and (ext[1:] in settings['extension_blacklist']):
+    if (file_name in settings['name_blacklist']) or (ext[1:] in settings['extension_blacklist']):
         print(f'{file_name}')
         os.remove(get_correct_path(file))
         icons_removed += 1

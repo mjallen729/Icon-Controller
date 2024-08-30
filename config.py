@@ -12,9 +12,9 @@ name_blacklist = {
 # Only delete the icon if it's a shortcut
 shortcut_mandatory = True
 
-# Do not remove files with these extensions (do not include the .)
+# Remove any files with these extensions (do not include the .)
 extension_blacklist = {
-    'pdf',
+    'ext',
 
 }
 
