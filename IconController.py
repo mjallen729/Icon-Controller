@@ -37,4 +37,4 @@ for file in files:
         icons_removed += 1
 
 print('==============================')
-print(f'{icons_removed} icons removed')
+print(f'{icons_removed} files removed')
